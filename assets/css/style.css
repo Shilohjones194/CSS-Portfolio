@@ -1,0 +1,92 @@
+/* HEADER / NAV BAR STYLES START */
+header {
+
+    padding: 15px;
+}
+
+header nav {
+    margin: 4px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 65px;
+  
+}
+
+.content {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.aboutMeImg {
+    flex-wrap: wrap;
+    display:block;
+    border-radius: 100px;
+}
+.aboutHeader {
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.aboutBody {
+    flex-wrap: wrap;
+   
+}
+
+.work {
+    background-color: cornflowerblue;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.runBuddy {
+    height: 300;
+    width: 350;
+    padding: 5px;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.column {
+    flex: auto;
+    padding: 5px;
+}
+
+
+
+
+.jeep, .north, .dakota {
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.project-picture {
+    height: 200px;
+    width: 250px;
+    padding: 5px;
+    flex-wrap: wrap;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
