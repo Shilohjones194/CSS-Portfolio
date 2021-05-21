@@ -1,6 +1,10 @@
-/* HEADER / NAV BAR STYLES START */
-header {
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+}
 
+header {
+    text-align: center;
     padding: 15px;
 }
 
@@ -10,12 +14,11 @@ header nav {
 
 header nav ul {
     list-style-type: none;
-    float: right;
+    
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 65px;
   
 }
 
@@ -29,43 +32,43 @@ body {
 }
   
 .container {
-    border: 3px solid blue;
-    padding: 20px 40px 40px;
-    max-width: 640px;
-    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-between;
+    text-align: center;
+
 }
-container_image {
-    border: 3px solid blue;
-    padding: 20px 40px 40px;
-    max-width: 640px;
-    margin: 20px 30px 0 0;
-    width: 200px;
-    object-fit: contain;
-    align-self: flex-start;
+.container_image {
+    height: auto;
+    width: 50%;
+    justify-content: space-between;
+    border-radius: 25px;
 }
+
 
 text {
     padding: 20px 40px 40px;
     max-width: 640px;
     display: flex;
     object-fit: contain;
-    align-self: flex-start;
     flex: 1 1 auto;
 }
 
 
 .work {
-    background-color: cornflowerblue;
+
+    box-sizing: border-box;
     text-align: center;
     flex-wrap: wrap;
+    object-fit: scale-down;
+    justify-content: space-between;
 }
 
-.runBuddy {
-    height: 300;
-    width: 350;
-    padding: 5px;
-    flex: auto;
-    flex-wrap: wrap;
+.TWAT {
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 25px;
 }
 
 
@@ -81,10 +84,10 @@ text {
 
 
 
-
 .jeep, .north, .dakota {
     text-align: center;
     flex-wrap: wrap;
+    border-radius: 25px;
 
 }
 
@@ -93,6 +96,7 @@ text {
     width: 250px;
     padding: 5px;
     flex-wrap: wrap;
+    border-radius: 25px;
 
 }
 
