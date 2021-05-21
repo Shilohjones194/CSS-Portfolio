@@ -13,6 +13,7 @@ This is a quick week 2 of my responsive professional Portfolio only using CSS.
 ## Questions
 * Email: Please contact me at [Shilohjonezz@gmail.com](mailto:Shilohjonezz@gmail.com) if you have any questions.
 * There will be more to come as my knowledge continues to grow!
+* https://shilohjones194.github.io/CSS-Portfolio/
 
 
 ## AcceptanceCriteria
